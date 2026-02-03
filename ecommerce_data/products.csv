@@ -1,0 +1,41 @@
+product_id,product_name,category,price
+1,Wireless Headphones,Electronics,2500
+2,Bluetooth Speaker,Electronics,1800
+3,Smartphone Case,Electronics,500
+4,USB-C Hub,Electronics,1200
+5,Webcam HD,Electronics,3000
+6,Power Bank 20K,Electronics,1500
+7,Mechanical Keyboard,Electronics,4500
+8,Mouse Ergonomic,Electronics,2000
+9,Men's T-Shirt,Clothing,600
+10,Women's Kurta,Clothing,1200
+11,Jeans Slim Fit,Clothing,1800
+12,Hoodie,Clothing,1500
+13,Formal Shirt,Clothing,1400
+14,Sports Jacket,Clothing,2800
+15,Cotton Saree,Clothing,2200
+16,Winter Jacket,Clothing,3500
+17,Python Cookbook,Books,800
+18,Data Science Handbook,Books,950
+19,Clean Code,Books,750
+20,System Design Guide,Books,1100
+21,Machine Learning Basics,Books,700
+22,AI: A Modern Approach,Books,1200
+23,The Pragmatic Programmer,Books,850
+24,Algorithms Unlocked,Books,900
+25,Air Purifier,Home & Kitchen,8000
+26,Coffee Maker,Home & Kitchen,4500
+27,Water Bottle,Home & Kitchen,400
+28,Non-Stick Pan Set,Home & Kitchen,2200
+29,Blender,Home & Kitchen,3000
+30,Toaster,Home & Kitchen,1600
+31,Dinner Set,Home & Kitchen,2800
+32,Electric Kettle,Home & Kitchen,1200
+33,Yoga Mat,Sports & Fitness,800
+34,Resistance Bands,Sports & Fitness,500
+35,Dumbbells 5kg,Sports & Fitness,1500
+36,Running Shoes,Sports & Fitness,3500
+37,Sports Water Bottle,Sports & Fitness,600
+38,Jump Rope,Sports & Fitness,300
+39,Fitness Tracker,Sports & Fitness,2500
+40,Gym Bag,Sports & Fitness,1200

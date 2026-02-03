@@ -1,0 +1,223 @@
+return_id,order_item_id,order_id,return_date,reason
+1,176,106,2024-04-21,Defective product
+2,2197,1257,2023-03-18,Defective product
+3,3143,1794,2023-08-23,Wrong item delivered
+4,3128,1786,2024-11-05,Not as described
+5,1368,787,2024-12-06,Size/fit issue
+6,1110,638,2023-10-29,Changed my mind
+7,1992,1141,2023-04-21,Wrong item delivered
+8,482,289,2023-05-23,Wrong item delivered
+9,3109,1773,2024-10-25,Changed my mind
+10,2757,1565,2023-05-17,Changed my mind
+11,1832,1051,2024-12-03,Duplicate order
+12,3031,1725,2024-11-21,Changed my mind
+13,1950,1117,2023-10-10,Defective product
+14,180,109,2024-05-17,Size/fit issue
+15,2839,1615,2024-12-01,Duplicate order
+16,332,199,2024-02-29,Defective product
+17,1215,697,2024-09-13,Duplicate order
+18,862,502,2023-02-24,Size/fit issue
+19,1243,713,2024-12-29,Duplicate order
+20,2371,1348,2024-10-09,Defective product
+21,694,405,2024-08-14,Not as described
+22,192,117,2023-12-25,Size/fit issue
+23,1775,1019,2023-06-29,Wrong item delivered
+24,2362,1344,2024-07-31,Size/fit issue
+25,1898,1086,2024-08-12,Size/fit issue
+26,376,228,2024-11-16,Size/fit issue
+27,665,387,2023-08-30,Not as described
+28,925,534,2023-10-27,Defective product
+29,948,546,2024-09-22,Wrong item delivered
+30,3317,1896,2023-05-20,Defective product
+31,870,505,2024-10-14,Duplicate order
+32,2673,1513,2023-12-14,Duplicate order
+33,999,578,2024-01-15,Duplicate order
+34,2401,1363,2023-05-01,Defective product
+35,1191,682,2024-12-26,Changed my mind
+36,2507,1421,2024-12-29,Not as described
+37,1288,743,2023-10-16,Changed my mind
+38,1966,1125,2024-04-16,Duplicate order
+39,1340,771,2023-11-11,Not as described
+40,2180,1247,2023-12-12,Defective product
+41,282,171,2023-08-03,Duplicate order
+42,864,503,2024-12-03,Defective product
+43,1805,1038,2024-12-29,Not as described
+44,3452,1976,2024-12-03,Defective product
+45,459,278,2023-11-10,Defective product
+46,824,481,2023-06-01,Wrong item delivered
+47,60,37,2024-11-02,Changed my mind
+48,3483,1993,2024-12-26,Changed my mind
+49,2710,1536,2024-10-24,Changed my mind
+50,1136,651,2024-11-16,Size/fit issue
+51,2788,1584,2023-04-17,Wrong item delivered
+52,2889,1644,2025-01-12,Duplicate order
+53,1680,965,2024-04-03,Duplicate order
+54,1028,595,2024-10-30,Duplicate order
+55,3302,1888,2023-10-22,Changed my mind
+56,1779,1021,2024-11-03,Changed my mind
+57,699,408,2023-10-20,Wrong item delivered
+58,1886,1080,2024-05-22,Defective product
+59,1053,610,2024-12-10,Changed my mind
+60,1552,898,2024-11-24,Duplicate order
+61,913,527,2024-12-04,Defective product
+62,1065,615,2023-11-06,Changed my mind
+63,696,407,2023-03-07,Not as described
+64,438,268,2023-12-31,Size/fit issue
+65,2171,1243,2024-10-19,Changed my mind
+66,2536,1435,2023-12-22,Not as described
+67,501,297,2023-10-12,Wrong item delivered
+68,3223,1842,2023-11-28,Not as described
+69,1579,909,2024-05-24,Wrong item delivered
+70,3271,1868,2024-05-06,Changed my mind
+71,1399,804,2023-12-07,Wrong item delivered
+72,2660,1504,2023-08-26,Not as described
+73,2545,1440,2024-12-06,Size/fit issue
+74,576,336,2024-10-27,Defective product
+75,1266,730,2023-10-17,Defective product
+76,2463,1400,2023-10-08,Size/fit issue
+77,3389,1938,2024-02-25,Duplicate order
+78,2437,1383,2024-03-03,Defective product
+79,190,116,2024-01-03,Changed my mind
+80,1974,1132,2023-05-27,Duplicate order
+81,1347,775,2023-12-20,Changed my mind
+82,471,286,2023-11-04,Not as described
+83,3329,1902,2024-02-04,Not as described
+84,2419,1373,2023-10-06,Duplicate order
+85,2438,1383,2024-02-26,Duplicate order
+86,2918,1663,2023-03-02,Duplicate order
+87,678,395,2024-10-21,Duplicate order
+88,804,466,2024-11-20,Wrong item delivered
+89,2607,1472,2023-08-14,Duplicate order
+90,393,241,2023-05-24,Duplicate order
+91,116,73,2024-12-24,Not as described
+92,2940,1675,2024-09-21,Changed my mind
+93,2300,1310,2023-12-07,Not as described
+94,3370,1927,2023-12-19,Defective product
+95,378,229,2023-06-10,Wrong item delivered
+96,597,348,2024-03-19,Wrong item delivered
+97,926,534,2023-10-22,Changed my mind
+98,1883,1078,2024-07-30,Duplicate order
+99,2335,1328,2023-12-15,Not as described
+100,1089,626,2024-02-25,Defective product
+101,120,76,2023-11-13,Not as described
+102,2165,1241,2023-11-20,Duplicate order
+103,2236,1277,2024-10-31,Duplicate order
+104,841,490,2024-03-23,Size/fit issue
+105,664,387,2023-08-27,Not as described
+106,588,345,2023-10-23,Changed my mind
+107,860,500,2024-10-15,Not as described
+108,2816,1600,2023-11-24,Wrong item delivered
+109,629,363,2024-12-30,Defective product
+110,1663,957,2024-12-10,Changed my mind
+111,620,359,2024-11-04,Size/fit issue
+112,967,557,2023-12-25,Defective product
+113,3327,1902,2024-02-10,Defective product
+114,781,455,2025-01-09,Wrong item delivered
+115,2088,1201,2024-12-24,Wrong item delivered
+116,226,133,2023-12-22,Wrong item delivered
+117,472,286,2023-11-08,Changed my mind
+118,2960,1687,2024-01-07,Not as described
+119,2709,1535,2023-11-11,Defective product
+120,1740,999,2025-01-08,Not as described
+121,3391,1939,2024-12-26,Not as described
+122,2494,1414,2024-06-25,Wrong item delivered
+123,2012,1155,2023-11-16,Not as described
+124,2506,1421,2024-12-29,Defective product
+125,117,74,2024-11-22,Defective product
+126,3286,1879,2024-01-11,Duplicate order
+127,1329,766,2023-05-02,Size/fit issue
+128,3214,1836,2024-10-11,Changed my mind
+129,888,514,2023-05-27,Not as described
+130,1287,743,2023-10-18,Changed my mind
+131,2689,1524,2023-05-28,Changed my mind
+132,2237,1277,2024-11-07,Changed my mind
+133,1777,1021,2024-11-05,Duplicate order
+134,531,313,2025-01-08,Changed my mind
+135,36,21,2024-12-05,Duplicate order
+136,3390,1939,2024-12-18,Defective product
+137,1859,1066,2024-01-24,Not as described
+138,1216,697,2024-09-19,Duplicate order
+139,623,361,2023-12-21,Size/fit issue
+140,2496,1415,2024-12-09,Changed my mind
+141,114,73,2024-12-18,Size/fit issue
+142,2110,1216,2023-09-30,Defective product
+143,3283,1877,2024-08-11,Defective product
+144,1892,1084,2023-08-27,Wrong item delivered
+145,509,300,2023-11-06,Changed my mind
+146,2659,1504,2023-08-29,Wrong item delivered
+147,3061,1744,2023-12-23,Size/fit issue
+148,3118,1778,2023-11-07,Not as described
+149,2963,1687,2023-12-28,Wrong item delivered
+150,1744,1000,2023-07-18,Defective product
+151,2061,1185,2023-10-21,Changed my mind
+152,1478,854,2024-03-26,Size/fit issue
+153,2024,1163,2024-10-06,Duplicate order
+154,1882,1077,2023-07-29,Defective product
+155,543,319,2023-11-21,Duplicate order
+156,652,379,2024-11-10,Not as described
+157,3100,1767,2023-11-27,Changed my mind
+158,1514,874,2024-11-07,Not as described
+159,1001,579,2024-10-18,Not as described
+160,3253,1858,2023-12-26,Changed my mind
+161,420,258,2024-12-28,Changed my mind
+162,2774,1574,2024-11-04,Duplicate order
+163,1023,591,2024-11-01,Not as described
+164,227,133,2023-12-23,Size/fit issue
+165,2972,1693,2024-12-13,Duplicate order
+166,534,314,2023-12-06,Changed my mind
+167,2199,1258,2023-11-27,Defective product
+168,2912,1660,2023-08-17,Duplicate order
+169,2370,1347,2023-07-03,Wrong item delivered
+170,2051,1177,2023-09-08,Size/fit issue
+171,2826,1605,2023-12-22,Duplicate order
+172,3338,1906,2024-01-02,Changed my mind
+173,2517,1427,2023-01-24,Changed my mind
+174,2407,1366,2024-03-11,Size/fit issue
+175,494,294,2023-12-03,Wrong item delivered
+176,823,480,2023-12-16,Duplicate order
+177,305,185,2023-02-06,Duplicate order
+178,216,129,2024-03-23,Not as described
+179,2321,1322,2024-12-23,Defective product
+180,2071,1192,2024-07-17,Changed my mind
+181,1673,961,2024-01-29,Duplicate order
+182,1571,906,2023-11-23,Duplicate order
+183,3320,1897,2024-07-11,Duplicate order
+184,2950,1679,2023-11-18,Wrong item delivered
+185,86,55,2024-11-27,Defective product
+186,79,50,2023-12-02,Duplicate order
+187,361,218,2024-05-17,Size/fit issue
+188,1422,820,2024-10-24,Changed my mind
+189,328,197,2024-10-30,Not as described
+190,2540,1437,2024-05-20,Size/fit issue
+191,2323,1323,2025-01-09,Changed my mind
+192,2360,1343,2023-07-03,Wrong item delivered
+193,3232,1846,2024-04-20,Defective product
+194,792,462,2023-02-17,Defective product
+195,407,250,2024-07-10,Changed my mind
+196,2143,1232,2023-10-18,Size/fit issue
+197,1330,767,2023-12-23,Not as described
+198,316,191,2024-03-25,Wrong item delivered
+199,3032,1725,2024-11-17,Changed my mind
+200,937,540,2024-10-08,Wrong item delivered
+201,2010,1154,2023-04-07,Defective product
+202,2696,1527,2024-12-14,Duplicate order
+203,3056,1741,2024-07-01,Duplicate order
+204,2908,1657,2025-01-03,Not as described
+205,671,391,2024-08-03,Wrong item delivered
+206,2869,1633,2024-07-27,Changed my mind
+207,1173,671,2023-11-18,Not as described
+208,2306,1314,2024-09-02,Size/fit issue
+209,2074,1194,2024-06-12,Duplicate order
+210,602,351,2023-04-27,Changed my mind
+211,2790,1584,2023-04-15,Wrong item delivered
+212,1605,923,2024-11-03,Not as described
+213,2523,1430,2023-06-11,Changed my mind
+214,481,289,2023-06-01,Not as described
+215,1509,873,2024-08-29,Not as described
+216,55,33,2024-12-22,Not as described
+217,568,331,2023-04-24,Wrong item delivered
+218,2661,1504,2023-08-24,Changed my mind
+219,3466,1984,2023-09-24,Defective product
+220,859,500,2024-10-06,Defective product
+221,2534,1434,2023-10-23,Wrong item delivered
+222,955,551,2024-07-23,Wrong item delivered

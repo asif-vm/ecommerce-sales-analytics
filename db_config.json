@@ -1,0 +1,9 @@
+{
+  "host": "ecommerce-db.cj2eouwgma95.ap-south-1.rds.amazonaws.com",
+  "port": 3306,
+  "database": "ecomdb",
+  "username": "dbadmin",
+  "password": "SecurePass123!",
+  "s3_bucket": "ecommerce-raw-data-asif",
+  "region": "ap-south-1"
+}

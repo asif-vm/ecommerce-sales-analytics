@@ -76,8 +76,7 @@ def setup_rds():
     rds = boto3.client("rds", region_name=REGION)
     ec2 = boto3.client("ec2", region_name=REGION)
 
-    # --- Create a Security Group that allows PostgreSQL (port 5432) from your IP ---
-    # We'll open it to 0.0.0.0/0 for simplicity during dev (restrict later in production)
+    # --- Create a Security Group restricted to the caller-supplied CIDR ---
     sg_response = ec2.create_security_group(
         GroupName="ecommerce-rds-sg",
         Description="Security group for ecommerce RDS"

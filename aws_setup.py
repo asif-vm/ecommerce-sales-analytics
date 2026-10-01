@@ -26,7 +26,8 @@ BUCKET_NAME = "ecommerce-raw-data-asif"      # Change this to something unique
 RDS_INSTANCE_ID = "ecommerce-db"
 RDS_DB_NAME = "ecomdb"
 RDS_USERNAME = "dbadmin"
-RDS_PASSWORD = "SecurePass123!"              # Change this to something strong
+RDS_PASSWORD = os.environ.get("RDS_PASSWORD")
+RDS_ALLOWED_CIDR = os.environ.get("RDS_ALLOWED_CIDR")
 RDS_INSTANCE_CLASS = "db.t3.micro"           # Free tier eligible
 CSV_FOLDER = "ecommerce_data"                # folder with your CSVs
 
@@ -70,6 +71,8 @@ def setup_s3():
 # ─────────────────────────────────────────────
 def setup_rds():
     print("🚀 Setting up RDS (PostgreSQL)...")
+    if not RDS_PASSWORD or not RDS_ALLOWED_CIDR:
+        raise RuntimeError("Set RDS_PASSWORD and RDS_ALLOWED_CIDR (for example, 203.0.113.5/32) before provisioning")
     rds = boto3.client("rds", region_name=REGION)
     ec2 = boto3.client("ec2", region_name=REGION)
 
@@ -87,7 +90,7 @@ def setup_rds():
         IpProtocol="tcp",
         FromPort=5432,
         ToPort=5432,
-        CidrIp="0.0.0.0/0"  # ⚠️ For dev only. Lock down in production!
+        CidrIp=RDS_ALLOWED_CIDR
     )
     print("  🔐 Ingress rule added for port 5432")
 
@@ -124,7 +127,7 @@ def setup_rds():
     endpoint = response["DBInstances"][0]["Endpoint"]["Address"]
     print(f"  🌐 RDS Endpoint: {endpoint}")
     print(f"  👤 Username:     {RDS_USERNAME}")
-    print(f"  🔑 Password:     {RDS_PASSWORD}")
+    print("  🔑 Password:     [loaded from RDS_PASSWORD environment variable]")
     print(f"  🗄️  Database:     {RDS_DB_NAME}\n")
 
     # Save endpoint to a config file for the next step

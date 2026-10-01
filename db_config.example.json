@@ -1,0 +1,9 @@
+{
+  "host": "your-rds-endpoint.ap-south-1.rds.amazonaws.com",
+  "port": 3306,
+  "database": "ecomdb",
+  "username": "dbadmin",
+  "password": "set-locally-and-never-commit",
+  "s3_bucket": "your-unique-bucket-name",
+  "region": "ap-south-1"
+}

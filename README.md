@@ -181,8 +181,8 @@ ORDER BY avg_spend DESC;
 
 ### Step 1: Clone Repository
 ```bash
-git clone https://github.com/asifvm/ecommerce-analytics-project.git
-cd ecommerce-analytics-project
+git clone https://github.com/asif-vm/--E-Commerce-Sales-Analytics-Dashboard.git
+cd --E-Commerce-Sales-Analytics-Dashboard
 ```
 
 ### Step 2: Install Dependencies
@@ -194,6 +194,10 @@ pip install boto3 pandas numpy faker pymysql
 ```bash
 aws configure
 # Enter your AWS Access Key ID, Secret Access Key, and Region (ap-south-1)
+
+# PowerShell example: use a unique password and restrict access to your IP /32
+$env:RDS_PASSWORD = "create-a-strong-password-locally"
+$env:RDS_ALLOWED_CIDR = "203.0.113.5/32"
 ```
 
 ### Step 4: Generate Data
@@ -210,6 +214,8 @@ python aws_setup.py
 - Provisions RDS MySQL instance
 - Configures security groups
 - Creates database tables
+
+`db_config.json` is generated locally and intentionally ignored by Git. Never commit credentials. Use `db_config.example.json` as the schema reference.
 
 ### Step 6: Load Data
 ```bash

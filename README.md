@@ -181,8 +181,8 @@ ORDER BY avg_spend DESC;
 
 ### Step 1: Clone Repository
 ```bash
-git clone https://github.com/asif-vm/--E-Commerce-Sales-Analytics-Dashboard.git
-cd --E-Commerce-Sales-Analytics-Dashboard
+git clone https://github.com/asif-vm/ecommerce-sales-analytics.git
+cd ecommerce-sales-analytics
 ```
 
 ### Step 2: Install Dependencies
